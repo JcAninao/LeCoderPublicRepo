@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:text="@string/app_name"
+        />
+
+    <TextView
+        android:id="@+id/tmpFormula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:gravity="end"
+        android:paddingTop="16dp"
+        android:paddingEnd="10dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tmpAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:gravity="end"
+        android:paddingEnd="10dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/displayTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:textColor="@color/black"
+        android:text="0"
+        android:gravity="end"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:textSize="24sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:columnCount="3"
+        android:rowCount="6"
+        android:minHeight="360dp"
+        android:minWidth="36dp">
+        <Button
+            android:id="@+id/clear"
+            android:text="C"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/divide"
+            android:text="÷"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/multiply"
+            android:text="x"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/clearEntry"
+            android:text="CE"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/subtract"
+            android:text="-"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/add"
+            android:text="+"
+            android:layout_margin="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/seven"
+            android:text="7"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/eight"
+            android:text="8"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/nine"
+            android:text="9"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/four"
+            android:text="4"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/five"
+            android:text="5"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/six"
+            android:text="6"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/one"
+            android:text="1"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/two"
+            android:text="2"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/three"
+            android:text="3"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/decimal"
+            android:text="."
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/zero"
+            android:text="0"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/equal"
+            android:text="="
+            android:layout_margin="10dp"
+            />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/debugger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="39dp"
+        android:text="" />
+
+</LinearLayout>
